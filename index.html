@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal SUTOR</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet" />
+</head>
+<body>
+    <div class="page-wrapper">
+        <div class="glass-container">
+            <aside class="sidebar">
+                <div class="logo">
+                    <div class="logo-circle"></div>
+                    <h2>SUTOR</h2>
+                </div>
+                <p class="menu-label">Menu Principal</p>
+                <nav class="menu">
+                    <button class="menu-btn active" data-target="paineis">
+                        <span class="material-symbols-outlined">dashboard</span>
+                        Painéis
+                    </button>
+                    <button class="menu-btn" data-target="ferramentas">
+                        <span class="material-symbols-outlined">build</span>
+                        Ferramentas
+                    </button>
+                    <button class="menu-btn" data-target="arquivos">
+                        <span class="material-symbols-outlined">folder_open</span>
+                        Arquivos
+                    </button>
+                </nav>
+                <div class="sidebar-footer">
+                    <img src="img/logo-tj.png" alt="Logo do TJAC" class="tj-logo">
+                </div>
+            </aside>
+
+            <main class="content">
+                <div class="content-wrapper">
+                    <header class="topbar">
+                        <div class="header-titles">
+                            <h1>Portal de Gestão Integrada</h1>
+                            <p>Gestão de Processos e Sistemas</p>
+                        </div>
+                    </header>
+
+                    <section id="paineis" class="tab-content active">
+                        <div class="section-header">
+                            <h2>Painéis</h2>
+                        </div>
+                        <div class="card-grid">
+                            <a href="https://script.google.com/macros/s/AKfycbxCk8hyxjJQsbn3SnEblmgGf-WlWmjR_ED3whoQAU7eRO0737RbkLHEu9nemIBkdesrww/exec" target="_blank" class="card">
+                                <div class="logo-elo-css">Elo</div>
+                                <h3>ELO</h3>
+                                <p>Gestão de Convênios</p>
+                            </a>
+                            <a href="https://script.google.com/macros/s/AKfycbxffqULmseFpK-JxJfMHiMfP2OoxPrgNFvsWSVPdDCYNTOiz9HXCHo3uQiq4ehtQiqg/exec" target="_blank" class="card">
+                                <img src="img/transparencia.png" alt="Ícone Transparência" class="logo-img">
+                                <h3>Transparência</h3>
+                                <p>Dados e Indicadores</p>
+                            </a>
+                            <a href="https://script.google.com/macros/s/AKfycbxmt7rdMTnqnZcgPDyuTSRDqy-4s3wiUTVIdX2fIJhKa0F2aQdJgvIPmdK6hKs5oetshQ/exec" target="_blank" class="card">
+                                <img src="img/processos.png" alt="Ícone Processos" class="logo-img">
+                                <h3>Gestão de Processos</h3>
+                                <p>Fluxos e Monitoramento</p>
+                            </a>
+                        </div>
+                    </section>
+
+                    <section id="ferramentas" class="tab-content">
+                        <div class="section-header">
+                            <h2>Ferramentas</h2>
+                        </div>
+                        <div class="card-grid">
+                            <a href="https://appgrp.tjac.jus.br/grp/home.faces" target="_blank" class="card">
+                                <img src="img/grp.png" alt="Ícone GRP" class="logo-img">
+                                <h3>GRP</h3>
+                                <p>Gestão de Recursos Públicos</p>
+                            </a>
+                            <a href="https://sei.tjac.jus.br/sip/login.php?sigla_sistema=SEI&sigla_orgao_sistema=TJAC" target="_blank" class="card">
+                                <img src="img/sei.png" alt="Ícone SEI" class="logo-img">
+                                <h3>SEI</h3>
+                                <p>Sistema Eletrônico de Informações</p>
+                            </a>
+                            <a href="https://trello.com/b/TMN3nCmK/sutor" target="_blank" class="card">
+                                <img src="img/trello.png" alt="Ícone Trello" class="logo-img">
+                                <h3>Trello</h3>
+                                <p>Quadro de Tarefas SUTOR</p>
+                            </a>
+                            <a href="https://portal-serv.tjac.jus.br/rhsysweb/public/PontoRemoto.xhtml" target="_blank" class="card">
+                                <img src="img/ponto.png" alt="Ícone Ponto" class="logo-img">
+                                <h3>Ponto Remoto</h3>
+                                <p>Registro de Frequência</p>
+                            </a>
+                        </div>
+                    </section>
+
+                    <section id="arquivos" class="tab-content">
+                        <div class="section-header">
+                            <h2>Repositório de Arquivos</h2>
+                            <div class="sub-menu">
+                                <button class="sub-btn active" data-sub="dimod">DIMOD</button>
+                                <button class="sub-btn" data-sub="ditra">DITRA</button>
+                            </div>
+                        </div>
+
+                        <div id="dimod" class="sub-content active">
+                            <div class="card-grid">
+                                <a href="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=MENU%20%C3%81RVORE.drawio&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1vaYRhFeXhh6VX2Kf7rpwqZ76pXdAT-om%26export%3Ddownload" target="_blank" class="card file-card">
+                                    <span class="material-symbols-outlined file-icon color-diagram">account_tree</span>
+                                    <h3>Árvore de Macroprocessos</h3>
+                                    <p>DIMOD • Diagrama</p>
+                                </a>
+                                <a href="https://docs.google.com/spreadsheets/d/1-k3w_bp7iuPDJ_ibcT9AWACC5WwtHFlLN4OBCQKy4QA/edit?usp=sharing" target="_blank" class="card file-card">
+                                    <span class="material-symbols-outlined file-icon color-sheet">table_view</span>
+                                    <h3>Planilha de Macroprocessos</h3>
+                                    <p>DIMOD • Planilha</p>
+                                </a>
+                                <a href="https://canva.link/9j8hpcqow0ibc65" target="_blank" class="card file-card">
+                                    <span class="material-symbols-outlined file-icon color-canva">view_quilt</span>
+                                    <h3>Cadeia de Valor</h3>
+                                    <p>DIMOD • Canva</p>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div id="ditra" class="sub-content">
+                            <div class="empty-state">
+                                <span class="material-symbols-outlined">folder_off</span>
+                                <p>Nenhum arquivo disponível no momento.</p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <footer class="site-footer">
+                    <span class="material-symbols-outlined footer-icon">verified</span>
+                    <p>Desenvolvido e mantido pela <strong>SUTOR</strong></p>
+                </footer>
+            </main>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
